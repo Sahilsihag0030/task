@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos & Audio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: black;
+        }
+
+        h2 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .media-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .video-container,
+        .audio-container {
+            width: 48%;
+            margin: 1%;
+            box-sizing: border-box;
+        }
+
+        video,
+        audio {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Videos</h2>
+    <div class="media-container">
+        <div class="video-container">
+            <video controls>
+                <source src="./videos/1.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="./videos/2.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="./videos/3.mp4" type="video/mp4">
+
+            </video>
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="./videos/4.mp4" type="video/mp4">
+
+            </video>
+        </div>
+    </div>
+
+    <h2>Audio</h2>
+    <div class="media-container">
+        <div class="audio-container">
+            <audio controls>
+                <source src="./audios/1.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="audio-container">
+            <audio controls>
+                <source src="./audios/2.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="audio-container">
+            <audio controls>
+                <source src="./audios/3.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="audio-container">
+            <audio controls>
+                <source src="./audios/4.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
